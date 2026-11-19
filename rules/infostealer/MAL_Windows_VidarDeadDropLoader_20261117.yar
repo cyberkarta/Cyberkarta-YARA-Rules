@@ -24,7 +24,7 @@ rule MAL_Windows_VidarDeadDropLoader_20261117
         $s5 = "[90m [~] " ascii fullword
 
         // Embedded build/campaign identifier observed alongside the above
-        $s6 = "5b1a4dd6b552d719906c7f798a3f7426" ascii
+        $s6 = "5b1a4dd6b552d719906c7f798a3f7426" ascii fullword
 
     condition:
         uint16(0) == 0x5a4d
